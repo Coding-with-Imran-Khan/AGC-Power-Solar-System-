@@ -1,0 +1,197 @@
+/* topbard start  */
+
+/* Base styles */
+.col-md-6.text-center.text-lg-right .d-inline-flex a {
+  color: inherit; /* Inherit color from parent */
+  display: inline-block; /* Allow side-by-side icons */
+  width: 20px; /* Set icon size (adjust as needed) */
+  height: 20px;
+  line-height: 25px; /* Center icon vertically */
+  text-align: center; /* Center icon horizontally */
+  border-radius: 50%; /* Make icons circular */
+  transition: transform 0.3s ease; /* Smooth transition */
+  margin: 0 5px; /* Add spacing between icons */
+}
+
+/* Push hover effect */
+.col-md-6.text-center.text-lg-right .d-inline-flex a:hover {
+  transform: scale(1.1); /* Increase size slightly on hover */
+}
+
+
+/* topbard end  */
+
+/*header section*/
+
+
+.hero_area {
+  position: relative;
+  background-color: #28a745;
+  height: 85vh;
+}
+
+.sub_page .hero_area {
+  height: auto;
+}
+
+.hero_area.sub_pages {
+  height: auto;
+}
+
+.header_section {
+  background-color: white;
+  
+}
+
+.header-head {
+  position: absolute;
+  left: 70px;
+  top: 85;
+}
+
+
+.header_section img {
+
+  width: 200x;
+  height: 70px;
+}
+
+
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 20px;
+  /* margin: 5px; */
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link:hover {
+ 
+ 
+  color: white;
+ 
+}
+
+.nav-item {
+  margin: 3px;
+  transition: 1s ease;
+  
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+  position: relative;
+}
+
+/* .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 65%;
+  left: 50%;
+  height: 2.5px;
+  background-color: #28a745;
+  bottom: 8px;
+  margin: 0 auto;
+  display: block;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+} */
+
+.nav-item:hover {
+
+  background-color: #28a745;
+
+}
+
+.nav-item.active {
+
+  background-color: #28a745;
+  
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.custom_nav-container .nav_search-btn {
+  background-image: url(../images/search-icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fefdfc;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 5px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 30px;
+}
+
+/* this is to set hamburger postiion on resp  */
+
+@media (min-width: 300px) and (max-width: 550px) {
+  .hamburger{
+/* border: 2px solid red; */
+position: absolute;
+  }  
+}
+  
+
+/*end header section*/
+
+
+
+/* three cards ////////////////////////////////////////////////stsrt */
+/* #three-cards{
+  align-items: center !important;
+  justify-content: center !important;
+  border: 2px solid red;
+  margin: auto;
+padding: auto ;
+} */

@@ -1,0 +1,47 @@
+.pony-card-item,
+        .price-item,
+        .team-item {
+            box-shadow: 0 0 45px rgba(0, 0, 0, .15);
+        }
+
+        .pony-card-item img,
+        .team-item img {
+            transition: .5s;
+        }
+
+        .pony-card-item:hover img,
+        .team-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .pony-card-item a.btn-slide,
+        .price-item a.btn-slide,
+        .team-item div.btn-slide {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            font-size: 0;
+        }
+
+        .pony-card-itema.btn-slide i,
+        .pony-card-item a.btn-slide span,
+        .price-item a.btn-slide i,
+        .price-item a.btn-slide span,
+        .team-item div.btn-slide i,
+        .team-item div.btn-slide span {
+            position: relative;
+            height: 40px;
+            padding: 0 15px;
+            display: inline-flex;
+            align-items: center;
+            font-size: 16px;
+            color: #FFFFFF;
+            background: var(--primary);
+            border-radius: 0 35px 35px 0;
+            transition: .5s;
+            z-index: 2;
+        }
+
+        .team-item div.btn-slide span a i {
+            padding: 0 10px;
+        }
